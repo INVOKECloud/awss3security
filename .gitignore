@@ -1,1 +1,3 @@
-target/
+#Ignore everything under target/
+target/*
+!target/awss3security-1.0-jar-with-dependencies.jar

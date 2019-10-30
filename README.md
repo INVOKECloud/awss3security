@@ -7,6 +7,7 @@ https://www.we45.com/blog/how-an-unclaimed-aws-s3-bucket-escalates-to-subdomain-
 This code finds R53 domains which are of type S3 ALIAS and configured to serve static content hosted on S3 and NOT pointing to ANY S3 buckets.
 
 #How it works?
+
 This is simple READ ONLY code which enumerates through the R53 record sets and compares them with S3 buckets. If any domain records which are NOT associated with S3 buckets are found, they will be listed on console.
 
 #How to run?
